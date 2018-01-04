@@ -1,0 +1,4 @@
+{
+    "description": "Prototype data warehouse database illustrating how data should be processed and arranged",
+    "name": "data_warehouse_template_raw"
+}

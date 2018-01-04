@@ -1,0 +1,4 @@
+{
+    "description": "Processed data from the data warehouse",
+    "name": "data_warehouse_processed"
+}

@@ -1,0 +1,4 @@
+sname,fname,dob,cat,value,extra
+smith,john,1986-01-01,1,4,this field
+jones,oliver,1955-07-30,1,2,additional data
+taylor,jane,1970-09-21,1,5,more data

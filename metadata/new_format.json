@@ -1,0 +1,46 @@
+{
+    "id": "data_warehouse_template_raw.glue_error_data",
+    "columns": [
+        {
+            "description": "The person's first name",
+            "name": "first_name",
+            "type": "character",
+            "column_number": 1
+        },
+        {
+            "description": "The person's surname",
+            "name": "surname",
+            "type": "character",
+            "column_number": 2
+        },
+        {
+            "description": "The person's date of birth",
+            "name": "dob",
+            "type": "date",
+            "column_number": 3
+        },
+        {
+            "description": "The person's value this period",
+            "name": "value",
+            "type": "int",
+            "column_number": 4
+        },
+        {
+            "description": "The person's category this period, to be referenced against a lookup table",
+            "name": "cat",
+            "type": "int",
+            "column_number": 5
+        },
+        {
+            "description": "An additional field",
+            "name": "extra",
+            "type": "character",
+            "column_number": 5
+        }
+    ],
+    "partition_keys":  [{"Name": "year", "Type": "int"}, {"Name": "month", "Type": "string"}],
+    "table_desc": "Data in a hypothetical new format e.g. from a new system",
+    "table_name": "glue_error_data",
+    "data_format": "csv",
+    "location": "s3://alpha-dag-data-warehouse-template/raw_data/glue_error_data"
+}
